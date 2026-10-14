@@ -29,5 +29,7 @@ The star schema uses a simplified, denormalized structure where dimension tables
 Resource: Snowflake Documentation - Designing Fact and Dimension Tables - https://www.snowflake.com/en/fundamentals/star-schema/
 
 ## Misconception in My Track
+A common wrong belief in artificial intelligence is that overfitting can only be avoided by reducing the total number of parameters or using simpler architectures. In reality, preventing overfitting is a system-level outcome that depends on multiple factors like data augmentation, early stopping, and regularization penalties. This is proven true in the "Prevention" section of the official IBM source (What is Overfitting? | IBM). The documentation demonstrates that complex models can remain highly generalized and avoid memorizing network noise by utilizing proper validation frameworks rather than just cutting down parameter capacity.
 
 ## Open Question 
+ I want to learn how cross-validation works with live, real-time data during an emergency. Specifically, I would verify how the model adapts when network traffic suddenly changes from normal everyday use to a massive spike caused by a major crisis.
