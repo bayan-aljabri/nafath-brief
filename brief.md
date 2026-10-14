@@ -17,10 +17,16 @@ Under network stress, the responder’s app must adopt an offline-first architec
 Resource: Android Developers - Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 
 ## Networking
+5G network slicing splits a single network into multiple isolated virtual channels. Under severe congestion, the operator assigns a dedicated slice exclusively for emergency responders, granting them priority access. This strict isolation protects their critical communication from public traffic, ensuring the emergency service remains fully operational, fast, and completely uninterrupted during crisis situations.
+Resource: Ericsson - 5G Network Slicing for Public Safety - https://www.ericsson.com/en/network-slicing
 
 ## Cybersecurity
+To safeguard the 5G emergency service during a cyberattack, organizations utilize a structured incident response framework consisting of four continuous phases. First, preparation establishes resilient network defenses and playbooks. Next, detection and analysis identify malicious traffic and assess the attack's scope. Then, containment, eradication, and recovery isolate compromised system channels, neutralize the threat, and restore full operational capabilities for responders. Finally, post-incident activity analyzes vulnerabilities to prevent future network disruptions under stress.
+Resource: Cisco - 5 Steps to an Effective Data Incident Response Program - https://blogs.cisco.com/security/5-steps-to-an-effective-data-incident-response-program
 
 ## Data
+The star schema uses a simplified, denormalized structure where dimension tables connect directly to the central fact table, ensuring faster query speeds. Conversely, the snowflake schema normalizes dimension tables into sub-tables to reduce redundancy, increasing complexity and execution times. For fast, regional, and daily 5G usage reporting under stress, the star schema is best suited due to its minimal table joins and superior read performance for project managers.
+Resource: Snowflake Documentation - Designing Fact and Dimension Tables - https://www.snowflake.com/en/fundamentals/star-schema/
 
 ## Misconception in My Track
 
