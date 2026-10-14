@@ -10,7 +10,7 @@ Resource: MDN Web Docs - HTTP Methods: Safe and Idempotent - https://developer.m
 
 ## AI
 Overfitting occurs when a model fits training data too closely, memorizing noise and failing to generalize. Consequently, it performs well during training but fails to accurately predict network congestion on new data. Cross-validation detects this by splitting data into multiple folds. The model trains on some folds and tests on others. A drop in test performance exposes overfitting.
-Resource: IBM Topics - What is Overfitting? - ibm.com
+Resource: IBM Topics - What is Overfitting? - https://www.ibm.com/us-en
 
 ## Mobile
 Under network stress, the responder’s app must adopt an offline-first architecture, treating the local database as the single source of truth. The UI must remain fully operational, instantly saving data locally using optimistic updates. Upon reconnection, a background sync engine automatically queues and uploads local modifications. It utilizes timestamp-based conflict resolution to merge data without duplicating emergency logs.
